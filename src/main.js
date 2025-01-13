@@ -21,8 +21,8 @@ const startBtn = document.getElementById("start-btn");
 const container = document.querySelector(".container");
 
 let agentIndex = 0;
-const tick = new Audio("./src/tick.mp3");
-const tock = new Audio("./src/tock.mp3");
+const tick = new Audio("src/tick.mp3");
+const tock = new Audio("src/tock.mp3");
 
 startBtn.addEventListener("click", function() {
   startBtn.setAttribute("disabled", "disabled");
