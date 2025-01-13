@@ -20,6 +20,8 @@ await fetchAgents();
 const startBtn = document.getElementById("start-btn");
 const container = document.querySelector(".container");
 
+document.getElementById("copyright").innerHTML = `© ${new Date().getFullYear()} Haroon Ahmad`;
+
 let agentIndex = 0;
 const tick = new Audio("src/tick.mp3");
 const tock = new Audio("src/tock.mp3");
@@ -31,7 +33,6 @@ startBtn.addEventListener("click", function() {
   const max = 3;
 
   let randomTime = Math.floor(Math.random() * (max - min + 1) + min);
-  console.log(randomTime);
   
   let intervalTime = 120;
 
