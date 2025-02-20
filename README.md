@@ -9,7 +9,7 @@ You can access the live version of the app here:
 
 ## Installation
 
-Clone this repository and open `index.html` in your browser:
+Clone this repository:
 
 ```bash
 git clone https://github.com/haroonstar2/Valorant-Agent-Randomizer.git
